@@ -4,4 +4,4 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'CST Docker 101  adfasf'
+    return 'CST Docker 101'
