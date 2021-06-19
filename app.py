@@ -4,11 +4,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'CST Docker'
+    return 'CST Docker Home page'
 
-@app.route('/about')
+@app.route('/create')
 def hello_world():
-    return 'About CST Docker'
+    return 'Creating Docker'
 
 if __name__== '__main__':
     app.run(host="0.0.0.0",debug=True)
